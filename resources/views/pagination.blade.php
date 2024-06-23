@@ -44,6 +44,7 @@ $(document).ready(function() {
             ajax: "{{ route('pagi') }}",
             paging: true, // Enable server-side pagination
             pageLength: 3, // Initial number of entries per page
+        //  Define all the th here
             columns: [
                 { name: 'First', // Give the name of <th scope="col">First</th>
                     render: function (data, type, row) {
